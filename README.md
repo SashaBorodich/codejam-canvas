@@ -1,5 +1,8 @@
 # task Codejam Canvas
 
+![screen task Codejam Canvas](https://ibb.co/NFY48Fy)
+![netlify](https://task-codejam-canvas.netlify.com/)
+
 ## Install
 1. Install [Node.js](https://nodejs.org/en/download/)
 2. Clone this repository: https://github.com/SashaBorodich/codejam-canvas
