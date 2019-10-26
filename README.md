@@ -1,12 +1,8 @@
 # task Codejam Canvas
 
-1. ![Task codejam canvas](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/codejam-canvas/codejam-canvas.md)
+![Screen](https://ibb.co/NFY48Fy)
 
-2. ![Screen](https://ibb.co/NFY48Fy)
-
-3. ![Netlify link](https://task-codejam-canvas.netlify.com/)
-
-4. 26.10.2019 / 27.10.2019
+![Netlify link](https://task-codejam-canvas.netlify.com/)
 
 ## Install
 1. Install [Node.js](https://nodejs.org/en/download/)
