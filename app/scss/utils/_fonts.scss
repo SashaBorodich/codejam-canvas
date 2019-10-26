@@ -1,13 +1,11 @@
 @font-face {
-	font-family: "FuturaDemiC";
-	src: url("../../fonts/FutureDemiC/FuturaDemiC.woff2") format("woff2"),
-			url("../../fonts/FutureDemiC/FuturaDemiC.ttf") format("ttf"),
-			url("../../fonts/FutureDemiC/FuturaDemiC.eot") format("eot"),
-			url("../../fonts/FutureDemiC/FuturaDemiC.woff") format("woff");
+	font-family: "Roboto";
+	src: 	url("../../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+	font-weight: 400;
 }
 
 @font-face {
-	font-family: "FuturaDemiC";
-	src: url("../../fonts/FutureDemiC/FuturaDemiC-Italic.ttf") format("ttf");
-	font-style: italic;
+	font-family: "Roboto";
+	src: url("../../fonts/Roboto/Roboto-Medium.ttf") format("ttf");
+	font-weight: 500;
 }

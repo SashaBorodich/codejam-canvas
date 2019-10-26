@@ -9,14 +9,14 @@ $smPhoneWidth : 375px;
 
 // Main color
 $white-color : #ffffff;
-$primary-color : #E3B873;
-$success-color : #131313;
+$primary-color : #e5e5e5;
+// $success-color : #131313;
 
-// $darker-text-color: ;
+$default-text-color: rgba( 0, 0, 0, .54 );
 // $light-text-color: ;
 
 // Font
 
-$default-font: "";
-$primary-font: "";
-$success-font: "";
+$default-font: "Roboto", sans-serif;
+// $primary-font: "";
+// $success-font: "";
