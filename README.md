@@ -15,7 +15,7 @@
 5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
 6. Run gulp in command line
 
-##Gulp tasks:##
+## Gulp tasks:
 
 <ul>
 	<li><strong>gulp</strong>: run default gulp task (sass, js, watch, browserSync) for web development;</li>
