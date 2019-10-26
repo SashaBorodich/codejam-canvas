@@ -1,0 +1,230 @@
+// header
+
+.header {
+	background-color: $white-color;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+	width: 100%;
+
+	padding: 14px 20px;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	&__nav {
+		background-image: url('./assets/images/icon-hamburger-menu.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+
+		height: 20px;
+		width: 20px;
+
+		margin-right: 35px;
+
+		cursor: pointer;
+	}
+
+	&__title {
+		font-family: $default-font;
+		font-weight: 500;
+		font-size: 1.25rem;
+		line-height: 1.15em;
+
+		color: rgba(0, 0, 0, 0.87);
+	}
+
+	&__menu {
+		background-image: url('./assets/images/icon-kebab-menu.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+
+		height: 20px;
+		width: 20px;
+
+		margin-left: auto;
+
+		cursor: pointer;
+	}
+
+}
+
+// END header
+
+// main
+
+.main {
+	padding: 0 30px;
+	padding-top: 130px;
+	padding-bottom: 200px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+// END main
+
+
+// block panel
+
+.panel {
+
+	display: flex;
+	flex-direction: column;
+
+	font-family: $default-font;
+	font-weight: 400;
+	color: $default-text-color;
+
+	background-color: $white-color;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+
+	&__elem {
+		display: flex;
+		align-items: center;
+		padding: 15px 0;
+		padding-left: 20px;
+
+		position: relative;
+
+		cursor: pointer;
+
+		transition: .2s;
+
+		&:hover {
+			background-color: rgba( 0, 0, 0, .15);
+		}
+
+		&--active {
+			background-color: rgba( 0, 0, 0, .35);
+		}
+
+		span {
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	&__group {
+		display: flex;
+		flex-direction: column;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+		}
+	}
+
+}
+// END block panel
+
+//sidebar
+
+.sidebar-left {
+	width: 230px;
+
+	display: flex;
+	flex-direction: column;
+}
+// END sidebar
+
+// toolbar 
+
+.toolbar {
+	margin-bottom: 95px;
+
+	&__elem {
+
+		span {
+			margin-right: 35px;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+}
+// END toolbar
+
+
+// connect icons
+
+#paintBucket {
+	span {
+		background-image: url('./assets/images/icon-paint-bucket.svg');
+	}
+}
+
+#chooseColor {
+	span {
+		background-image: url('./assets/images/icon-choose-color.svg');
+	}
+}
+
+#move {
+	span {
+		background-image: url('./assets/images/icon-move.svg');
+	}
+}
+
+#transform {
+	span {
+		background-image: url('./assets/images/icon-transform.svg');
+	}
+}
+// END icons
+
+
+.color-bar {
+	&__elem {
+
+		span {
+			margin-right: 20px;
+			border-radius: 50%;
+			border: 1px solid #000000;
+		}
+	}
+}
+
+//connect colors
+
+#currentColor {
+	span {
+		background-color: #c4c4c4;
+	}
+}
+
+#prevColor {
+	span {
+		background-color: #41F795;
+	}
+}
+
+#redColor {
+	span {
+		background-color: #F74141;
+	}
+}
+
+#blueColor {
+	span {
+		background-color: #41B6F7;
+	}
+}
+
+
+//sidebar right
+
+.sidebar-right {
+	width: 230px;
+}
+
+.size-bar {
+	margin-bottom: 95px;
+
+	&__elem {
+
+		span {
+			margin-right: 35px;
+			background-image: url('./assets/images/icon-transform.svg');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+}

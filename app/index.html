@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CodeJam Canvas</title>
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+	<header class="header">
+		
+		<nav class="header__nav nav"></nav>
+
+		<h1 class="header__title">CodeJam - Palette</h1>
+
+		<menu class="header__menu menu"></menu>
+
+	</header>
+
+	<main class="main">
+
+		<section class="sidebar-left">
+			
+			<div class="toolbar panel">
+
+				<div class="toolbar__color-group panel__group">
+					<a id="chooseColor" class="toolbar__elem panel__elem"><span></span>Choose color</a>
+					<a id="paintBucket" class="toolbar__elem panel__elem"><span></span>Paint bucket</a>
+				</div>
+
+				<div class="toolbar__move-group panel__group">
+					<a id="move" class="toolbar__elem panel__elem"><span></span>Move</a>
+					<a id="transform" class="toolbar__elem panel__elem"><span></span>Transform</a>
+				</div>
+
+			</div>
+
+			<div class="color-bar panel">
+
+				<div class="color-bar__condition panel__group">
+					<a id="currentColor" class="color-bar__elem panel__elem"><span></span>Current color</a>
+					<a id="prevColor" class="color-bar__elem panel__elem"><span></span>Prev color</a>
+				</div>
+
+				<div class="color-bar__popular panel__group">
+					<a id="redColor" class="color-bar__elem panel__elem"><span></span>red</a>
+					<a id="blueColor" class="color-bar__elem panel__elem"><span></span>blue</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="draw-area">
+
+			<canvas id="canvas"></canvas>
+
+		</section>
+
+		<section class="sidebar-right">
+
+			<div class="size-bar panel">
+
+				<a id="size4x4" class="size-bar__elem panel__elem"><span></span>4x4</a>
+				<a id="size32x32" class="size-bar__elem panel__elem"><span></span>32x32</a>
+				<a id="size256x256" class="size-bar__elem panel__elem"><span></span>256x256</a>
+
+			</div>
+
+		</section>
+		
+	</main>
+
+	<script src="./scripts.js"></script>
+</body>
+</html>
