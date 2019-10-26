@@ -1,8 +1,8 @@
 # task Codejam Canvas
 
-![Screen](https://ibb.co/NFY48Fy)
+[Screen](https://ibb.co/NFY48Fy)
 
-![Netlify link](https://task-codejam-canvas.netlify.com/)
+[Netlify link](https://task-codejam-canvas.netlify.com/)
 
 ## Install
 1. Install [Node.js](https://nodejs.org/en/download/)
