@@ -1,7 +1,12 @@
 # task Codejam Canvas
 
-![screen task Codejam Canvas](https://ibb.co/NFY48Fy)
-![netlify](https://task-codejam-canvas.netlify.com/)
+1. ![Task codejam canvas](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/codejam-canvas/codejam-canvas.md)
+
+2. ![Screen](https://ibb.co/NFY48Fy)
+
+3. ![Netlify link](https://task-codejam-canvas.netlify.com/)
+
+4. 26.10.2019 / 27.10.2019
 
 ## Install
 1. Install [Node.js](https://nodejs.org/en/download/)
@@ -10,7 +15,7 @@
 5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
 6. Run gulp in command line
 
-<h2>Gulp tasks:</h2>
+##Gulp tasks:##
 
 <ul>
 	<li><strong>gulp</strong>: run default gulp task (sass, js, watch, browserSync) for web development;</li>
