@@ -1,8 +1,8 @@
-# task-Codejam-Canvas
+# task Codejam Canvas
 
 ## Install
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Clone this repository: https://github.com/SashaBorodich/task-Codejam-Canvas
+2. Clone this repository: https://github.com/SashaBorodich/codejam-canvas
 3. Go to folder `task-Codejam-Canvas`  
 5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
 6. Run gulp in command line
