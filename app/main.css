@@ -116,7 +116,7 @@ select {
 }
 
 .header__nav {
-  background-image: url("../images/icon-hamburger-menu.svg");
+  background-image: url("./assets/images/icon-hamburger-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 20px;
@@ -134,7 +134,7 @@ select {
 }
 
 .header__menu {
-  background-image: url("../images/icon-kebab-menu.svg");
+  background-image: url("./assets/images/icon-kebab-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 20px;
@@ -197,7 +197,7 @@ select {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-.panel__elem:active {
+.panel__elem--active {
   background-color: rgba(0, 0, 0, 0.35);
 }
 
@@ -246,19 +246,19 @@ select {
 }
 
 #paintBucket span {
-  background-image: url("../images/icon-paint-bucket.svg");
+  background-image: url("./assets/images/icon-paint-bucket.svg");
 }
 
 #chooseColor span {
-  background-image: url("../images/icon-choose-color.svg");
+  background-image: url("./assets/images/icon-choose-color.svg");
 }
 
 #move span {
-  background-image: url("../images/icon-move.svg");
+  background-image: url("./assets/images/icon-move.svg");
 }
 
 #transform span {
-  background-image: url("../images/icon-transform.svg");
+  background-image: url("./assets/images/icon-transform.svg");
 }
 
 .color-bar__elem span {
@@ -293,7 +293,7 @@ select {
 
 .size-bar__elem span {
   margin-right: 35px;
-  background-image: url("../images/icon-transform.svg");
+  background-image: url("./assets/images/icon-transform.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

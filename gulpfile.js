@@ -54,19 +54,19 @@ function buildJs () {
 
 function buildFonts () {
 	return src([
-		'app/fonts/**/*',
+		'app/assets/fonts/**/*',
 	]).pipe(dest('dist/assets/fonts'));
 }
 
 function minImages () {
-	return src('app/img/**/*')
+	return src('app/assets/images/**/*')
 	.pipe(cache(imageMin()))
-	.pipe(dest('dist/img')); 
+	.pipe(dest('dist/assets/images')); 
 }
 
 function removeDist () {
 	return del('dist');
 }
 
-exports.default = series( serve, cssTranspile );
+exports.default = series( cssTranspile, jsTranspile, serve );
 exports.build = series( removeDist, parallel( cssTranspile, jsTranspile ), parallel( buildHtml, buildCss, buildJs, buildFonts, minImages ));
